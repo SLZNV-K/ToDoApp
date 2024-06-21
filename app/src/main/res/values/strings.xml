@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">ToDoApp</string>
     <string name="description_the_button_for_adding_a_case">The button for adding a case</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="description_date_piker_button">Date Piker button</string>
     <string name="done_count_items">Выполнено - %1$d</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="what_needs_to_be_done">Что надо сделать…</string>
+    <string name="importance">Важность</string>
+    <string name="make_it_to">Сделать до</string>
+    <string name="delete">Удалить</string>
 
     <string-array name="importanceItemVariants">
         <item>Нет</item>

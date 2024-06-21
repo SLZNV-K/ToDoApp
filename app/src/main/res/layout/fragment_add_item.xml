@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:text="СОХРАНИТЬ"
+            android:text="@string/save"
             android:textColor="@color/blue" />
     </LinearLayout>
 
@@ -49,7 +49,7 @@
             android:layout_margin="@dimen/common_spacing"
             android:background="@null"
             android:gravity="top"
-            android:hint="Что надо сделать..."
+            android:hint="@string/what_needs_to_be_done"
             android:importantForAutofill="no"
             android:inputType="textMultiLine"
             tools:text="@tools:sample/lorem[4]" />
@@ -59,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="@style/body"
-        android:text="Важность" />
+        android:text="@string/importance" />
 
     <Spinner
         android:id="@+id/importanceVariants"
@@ -89,7 +89,7 @@
                 style="@style/body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Сделать до" />
+                android:text="@string/make_it_to" />
 
             <TextView
                 android:id="@+id/deadline"
@@ -118,7 +118,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="Удалить"
+        android:text="@string/delete"
         android:textColor="@color/design_default_color_on_primary"
         app:icon="@drawable/ic_delete_24"
         app:iconTint="@color/design_default_color_on_primary" />

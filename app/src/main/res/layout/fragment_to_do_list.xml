@@ -45,7 +45,8 @@
         android:paddingStart="40dp"
         app:layout_anchor="@id/recyclerView"
         app:layout_collapseMode="parallax"
-        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+        app:layout_scrollFlags="scroll|exitUntilCollapsed"
+        tools:ignore="RtlSymmetry">
 
         <TextView
             android:id="@+id/countDoneItems"

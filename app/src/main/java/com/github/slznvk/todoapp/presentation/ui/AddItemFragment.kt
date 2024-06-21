@@ -2,8 +2,6 @@ package com.github.slznvk.todoapp.presentation.ui
 
 import android.app.DatePickerDialog
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +11,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.github.slznvk.todoapp.R
 import com.github.slznvk.todoapp.databinding.FragmentAddItemBinding
 import com.github.slznvk.todoapp.presentation.viewmodel.ToDoViewModel
 import dagger.hilt.android.AndroidEntryPoint
